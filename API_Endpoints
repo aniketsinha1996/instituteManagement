@@ -1,0 +1,13 @@
+API_Endpoints
+-------------
+
+1. Fetch Institute Based on id :- http://localhost:8000/getInstituteDetails/1
+2. Institute Registration:- http://localhost:8006/registerInstitute 
+                            
+use this Json format in Body:- {
+"instituteName": "KCCITM",
+"instituteContact": 9876552,
+"instituteLocation":"Greater noida"
+}
+
+3. Update Registered institute:- http://localhost:8006/updateInstitute/1
